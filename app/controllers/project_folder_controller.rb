@@ -1,0 +1,2 @@
+class ProjectFolderController < ApplicationController
+end

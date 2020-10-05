@@ -1,0 +1,2 @@
+class BugBookController < ApplicationController
+end

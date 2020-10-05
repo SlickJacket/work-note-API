@@ -1,2 +1,0 @@
-class BugController < ApplicationController
-end

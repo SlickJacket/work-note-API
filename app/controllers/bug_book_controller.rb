@@ -1,2 +1,0 @@
-class BugBookController < ApplicationController
-end

@@ -1,2 +1,0 @@
-class NoteBookController < ApplicationController
-end

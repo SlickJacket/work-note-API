@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :notes
   resources :bug_books
   resources :bugs
-  post '/login', to: 'aut#create'
+  post '/login', to: 'auth#login'
+  post '/signup', to: 'users#create'
   get '/profile', to: 'users#profile'
 end

@@ -10,7 +10,7 @@ class UsersController < ApplicationController
   end
 
   def profile
-    render json: current_user, include: [:stats, :action_infos]
+    render json: current_user, include: [:project_folders, :note_books, :bug_books, :notes, :bugs]
   end
 
   def create

@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# user2 = User.create(username: "tod", password: "123", password_confirmation: "123")
+# proj1 = ProjectFolder.create(title: "proddy", user_id: user2.id)
+# nb1 = NoteBook.create(title: "notey book", project_folder_id: proj1.id)
+# note1 = Note.create(title: "notey", note_book_id: nb1.id)
